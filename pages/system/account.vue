@@ -452,7 +452,7 @@
       editMod.value = false;
       getUserList();
     } else {
-      showMessage(res.msg, 'error');
+      showMessage(res.message, 'error');
     }
   };
 
@@ -473,7 +473,7 @@
       increaseMod.value = false;
       getUserList();
     } else {
-      showMessage(res.msg, 'error');
+      showMessage(res.message, 'error');
     }
   };
 
@@ -502,7 +502,7 @@
       showMessage(t('Deleted successfully.'));
       getUserList();
     } else {
-      showMessage(res.msg, 'error');
+      showMessage(res.message, 'error');
     }
   };
 
